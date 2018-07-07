@@ -1,4 +1,4 @@
-# Bcrypt.fun
+# IPcheck.fun
 
 A simple website for checking your IP written in Golang.
 
