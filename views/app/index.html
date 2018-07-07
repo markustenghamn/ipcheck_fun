@@ -1,0 +1,18 @@
+{{template "header.html" .}}
+
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12" style="height:25px;"></div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <h2>Check your IP</h2>
+            <p>Use <a href="https://ipcheck.fun">{{.Title}}</a> to check the external IP of your PC or device. Use <a href="https://ipcheck.fun/json">https://ipcheck.fun/json</a>, <a href="https://ipcheck.fun/xml">https://ipcheck.fun/xml</a> and <a href="https://ipcheck.fun/string">https://ipcheck.fun/string</a> to get the ip in different formats.</p>
+
+            <div id="ipresult" class="d-flex justify-content-center ipcheckbox">Checking your IP...</div>
+        </div>
+    </div>
+
+</div>
+
+{{template "footer.html" .}}

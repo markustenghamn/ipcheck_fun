@@ -1,0 +1,34 @@
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+small {
+    font-weight: 100 !important;
+}
+
+div {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+[class*="col-"] {
+    margin-bottom: 15px;
+}
+
+.ipcheckbox {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
